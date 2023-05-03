@@ -38,7 +38,6 @@ You must have the "faas-cli" command-line tool installed. You can download and i
 ```
 faas-cli deploy -f lorem-ipsum-generator.yml
 ```
-
 4. Once the function is deployed, you can invoke it using the "faas-cli" tool:
 
 ```
@@ -48,3 +47,11 @@ faas-cli invoke lorem-ipsum-generator --query num_paragraphs=3
 here we are invoking the function with the "num_paragraphs" input set to 3. You can adjust this value as needed.
 The function will generate the specified number of paragraphs of Lorem Ipsum text and return it as a string output in your terminal or command prompt.
 You can use this function whenever you need to generate random placeholder text for your projects or testing. You can also modify the function code to customize the list of Lorem Ipsum words and phrases used to generate the text.
+
+'lorem-ipsum-generator.yml': This is the function definition file for OpenFaaS. It defines the Docker image to use, the function name, and other configuration options. 
+'requirements.txt': This file lists the Python dependencies required by the function. In this case, we only have one dependency, which is flask. 
+'handler.py': This is the Python script that contains the function code. It defines the handle() function that generates the Lorem Ipsum text. Here's an example content of the file:
+
+These files are all included in the "Lorem Ipsum Generator" function repository if you cloned it from my GitHub.
+
+Created by: #### Darshani Persadh <a href="https://github.com/arishma108"></a>
