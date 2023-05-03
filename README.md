@@ -5,7 +5,9 @@ This function generates random "Lorem Ipsum" text, a placeholder text commonly u
 ### Programming Language: Python
 
 #### Description:
-This function generates random "Lorem Ipsum" text, a placeholder text commonly used in the design industry to demonstrate the visual effects of different typefaces and layouts.
+###### This function generates random "Lorem Ipsum" text, a placeholder text commonly used in the design industry to demonstrate the visual effects of different typefaces and layouts.
+This is a simple OpenFaaS function written in Python that generates random strings. It demonstrates how to use the OpenFaaS CLI to build, push, and deploy a function, as well as how to pass input and output data to and from the function.
+
 
 #### Functionality:
 
@@ -76,6 +78,21 @@ This file specifies the name, version, description, author, and dependencies for
 <br><br>
 These files are all included in the "Lorem Ipsum Generator" function repository if you cloned it from my GitHub.
 <br>
+
+###### Tags:
+
+-openfaas
+-python
+-serverless
+-functions
+
+###### Categories:
+
+-Cloud Computing
+-Development & IT
+-Serverless Computing
+-Web & App Development
+
 
 ##### Regards
 ##### Darshani Persadh 
