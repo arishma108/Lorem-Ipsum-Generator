@@ -31,7 +31,7 @@ You must have the "faas-cli" command-line tool installed. You can download and i
 
 #### Steps to use the "Lorem Ipsum Generator" function:
 
-1. Clone the "Lorem Ipsum Generator" function repository from GitHub (https://github.com/example/lorem-ipsum-generator) to your local machine or server.
+1. Clone the "Lorem Ipsum Generator" function repository from GitHub (https://github.com/arishma108/Lorem-Ipsum-Generator) to your local machine or server.
 2. Navigate to the cloned repository directory in your terminal or command prompt.
 3. Use the "faas-cli" tool to deploy the function to your OpenFaaS environment:
 
