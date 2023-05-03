@@ -63,5 +63,5 @@ This file lists the Python dependencies required by the function. In this case, 
 These files are all included in the "Lorem Ipsum Generator" function repository if you cloned it from my GitHub.
 
 
-Regards
-Darshani Persadh 
+##### Regards
+##### Darshani Persadh 
