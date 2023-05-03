@@ -81,18 +81,18 @@ These files are all included in the "Lorem Ipsum Generator" function repository 
 
 ###### Tags:
 
---openfaas
---python
---serverless
---functions
+- openfaas
+- python
+- serverless
+- functions
 
 ###### Categories:
 
---Cloud Computing
---Development & IT
---Serverless Computing
---Web & App Development
+- Cloud Computing
+- Development & IT
+- Serverless Computing
+- Web & App Development
 
 
-##### Regards
-##### Darshani Persadh 
+###### Regards
+###### Darshani Persadh 
