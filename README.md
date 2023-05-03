@@ -44,7 +44,7 @@ faas-cli deploy -f lorem-ipsum-generator.yml
 faas-cli invoke lorem-ipsum-generator --query num_paragraphs=3
 ```
 
-here we are invoking the function with the "num_paragraphs" input set to 3. You can adjust this value as needed.
+Here we are invoking the function with the "num_paragraphs" input set to 3. You can adjust this value as needed.
 The function will generate the specified number of paragraphs of Lorem Ipsum text and return it as a string output in your terminal or command prompt.
 You can use this function whenever you need to generate random placeholder text for your projects or testing. You can also modify the function code to customize the list of Lorem Ipsum words and phrases used to generate the text.
 <br>
@@ -73,7 +73,7 @@ This configuration specifies that Travis CI should use Python 3.6 and install th
 setup.py
 ```
 This file specifies the name, version, description, author, and dependencies for the function. The py_modules list specifies the module(s) that should be included in the package. When the function is packaged using this setup.py file, it can be easily installed using pip and used by other Python projects.
-<br>
+<br><br>
 These files are all included in the "Lorem Ipsum Generator" function repository if you cloned it from my GitHub.
 <br>
 
