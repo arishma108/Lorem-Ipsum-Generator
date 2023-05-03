@@ -37,13 +37,13 @@ You must have the "faas-cli" command-line tool installed. You can download and i
 
 '''
 faas-cli deploy -f lorem-ipsum-generator.yml
-...
+'''
 
 4. Once the function is deployed, you can invoke it using the "faas-cli" tool:
 
-...
+'''
 faas-cli invoke lorem-ipsum-generator --query num_paragraphs=3
-...
+'''
 
 here we are invoking the function with the "num_paragraphs" input set to 3. You can adjust this value as needed.
 The function will generate the specified number of paragraphs of Lorem Ipsum text and return it as a string output in your terminal or command prompt.
