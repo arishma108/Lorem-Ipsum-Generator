@@ -1,0 +1,13 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://localhost:8080
+functions:
+  lorem-ipsum-generator:
+    lang: python
+    handler: ./handler
+    image: example/lorem-ipsum-generator
+    environment:
+      write_debug: true
+    annotations:
+      topic: faas
