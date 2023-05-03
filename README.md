@@ -23,3 +23,24 @@ Praesent vel ornare turpis. Maecenas sed elit elit. Curabitur imperdiet fringill
 Suspendisse potenti. Etiam aliquet, quam eu consequat fringilla, diam diam malesuada diam, ac interdum quam ipsum non odio. Praesent maximus eget nulla vel bibendum. Nullam eget ultricies erat, vel auctor quam. Aliquam et dolor eget augue vestibulum euismod. "
 
 This function could be useful for developers who need to generate placeholder text for their design projects or test cases. It also demonstrates how easy it is to create a simple function with OpenFaaS that can be used to solve specific problems or automate certain tasks.
+
+#### Prerequisites:
+
+You must have OpenFaaS installed and configured on your local machine or server. You can follow the official installation guide on the OpenFaaS website (https://docs.openfaas.com/deployment/) to set up your environment.
+You must have the "faas-cli" command-line tool installed. You can download and install it from the official OpenFaaS GitHub repository (https://github.com/openfaas/faas-cli).
+
+#### Steps to use the "Lorem Ipsum Generator" function:
+
+1. Clone the "Lorem Ipsum Generator" function repository from GitHub (https://github.com/example/lorem-ipsum-generator) to your local machine or server.
+2. Navigate to the cloned repository directory in your terminal or command prompt.
+3. Use the "faas-cli" tool to deploy the function to your OpenFaaS environment:
+
+faas-cli deploy -f lorem-ipsum-generator.yml
+
+4. Once the function is deployed, you can invoke it using the "faas-cli" tool:
+
+faas-cli invoke lorem-ipsum-generator --query num_paragraphs=3
+
+here we are invoking the function with the "num_paragraphs" input set to 3. You can adjust this value as needed.
+The function will generate the specified number of paragraphs of Lorem Ipsum text and return it as a string output in your terminal or command prompt.
+You can use this function whenever you need to generate random placeholder text for your projects or testing. You can also modify the function code to customize the list of Lorem Ipsum words and phrases used to generate the text.
