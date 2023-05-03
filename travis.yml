@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install faas-cli
+  - pip install -r requirements.txt
+script:
+  - faas-cli build -f ./stack.yml
+  - faas-cli push -f ./stack.yml
+deploy:
+  provider: script
+  script: faas-cli deploy -f ./stack.yml
+  on:
+    branch: master
+
